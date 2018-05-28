@@ -1,3 +1,15 @@
+# File: generators.py
+# Description: Examples on how to create and use generators in Python
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# [1] Valentyn N Sichkar. Examples on how to create and use generators in Python // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Generators_in_Python (date of access: XX.XX.XXXX)
+
+
 from random import random
 
 
@@ -53,7 +65,7 @@ print(y)
 z = next(g)
 
 
-# Implementing the task
+# Implementing the task - creating the methods for prime numbers
 def is_prime(n):
     if n == 2:
         return True
